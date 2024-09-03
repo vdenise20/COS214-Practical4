@@ -1,5 +1,7 @@
 A guide to how I implemented the uml diagram:
 
+
+-------------------------------------------------------------------------------
 Component 1:
 Component: FarmUnit
 Role: The FarmUnit class provides a unified interface for all farm-related entities, whether they are simple elements like CropField and Barn or composite structures like Farm.
@@ -76,6 +78,8 @@ Reasoning Behind the Design
 	• Composite Operations (Farm): The composite class (Farm) can perform operations on its children, such as calculating total capacity or managing additions and removals of units.
 	• Leaf Simplicity (CropField, Barn): The leaf classes implement the core functionality specific to their role in the system, such as tracking crop types or storage capacities, without the overhead of managing children.
 
+ 
+------------------------------------------------------------------------
 Component 2:
 
 1. SoilState (State)
@@ -117,3 +121,63 @@ Explanation of Roles and Interactions
 	• Concrete States (DrySoil, FruitfulSoil, FloodedSoil): Each concrete state encapsulates specific behavior relevant to that state. For example, DrySoil may yield minimal crops and transition to FruitfulSoil after rain, while FloodedSoil prevents any further growth.
 	• Client: The client interacts with the CropField and triggers operations like harvestCrops() or rain(), without needing to know the specific state of the soil. The context and state handle the behavior internally, ensuring that the correct actions are taken based on the current state.
 
+
+--------------------------------------------------------------------------------------------
+
+Component 4 
+Class Diagram Structure
+1. CropFieldInterface (Subject)
+	• Variables:
+		○ Observer* observerList
+			§ Reason: This list stores all the trucks (observers) that are currently subscribed to receive notifications from the crop field. Each observer in this list will be notified when a relevant event occurs in the crop field.
+	• Functions:
+		○ void attach(Truck* observer);
+			§ Reason: This function adds a truck to the observerList, allowing it to receive notifications when the state of the crop field changes.
+		○ void detach(Truck* observer);
+			§ Reason: This function removes a truck from the observerList, so it no longer receives notifications about the crop field's state changes.
+		○ void notify();
+			§ Reason: This function iterates through the observerList and calls the update() method on each truck, notifying them of any relevant changes in the crop field's state.
+	• Role: This interface acts as the blueprint for all crop fields that need to be observed. It provides the necessary methods to manage the observer trucks and ensure they are notified when the crop field's state changes.
+
+3. CropField (ConcreteSubject)
+	• Variables:
+		○ SoilState* currentState;
+			§ Reason: This variable points to the current soil state of the crop field, such as DrySoil, FruitfulSoil, or FloodedSoil. The soil state influences when trucks should be notified to take action.
+	• Methods:
+		○ SoilState* getState();
+			§ Reason: This method returns the current soil state of the crop field. Observers (trucks) can query this state to decide how to respond when they are notified of changes.
+		○ void setState(SoilState* newState);
+			§ Reason: This method updates the currentState of the crop field to a new soil state. After updating the state, it triggers the notify() function to inform all subscribed trucks of the change, prompting them to take the necessary actions.
+	• Role: The CropField class manages its own state (e.g., soil moisture, storage capacity) and notifies the registered trucks (observers) when there is a significant change that may require action, such as applying fertilizer or collecting crops.
+
+5. Truck (Observer)
+	• Functions:
+		○ virtual void update(CropFieldInterface* field) = 0;
+			§ Reason: This method is called by the CropField when an event occurs. It ensures that all trucks respond appropriately based on the current state of the crop field. The specific response depends on the type of truck and the field's condition.
+	• Role: The Truck interface ensures that all types of trucks can be notified of changes in the crop field. By implementing the update() method, each truck can determine how to respond to the changes in the crop field.
+
+
+7. FertilizerTruck and DeliveryTruck (ConcreteObservers)
+	• Variables:
+		○ SoilState* observerState
+			§ Reason: This variable stores the state of the crop field as observed by the truck. It allows the truck to maintain a reference to the crop field's state and decide when to take action (e.g., delivering fertilizer if the soil is dry).
+		○ CropField* subject
+			§ Reason: This variable holds a reference to the CropField that the truck is observing. It ensures that the truck knows which crop field it is responding to when notified of state changes.
+	• Functions:
+		○ void update(CropFieldInterface* field) override;
+			§ Reason: This method implements the specific behavior that should occur when the truck is notified of a change in the crop field. For example, the FertilizerTruck might deliver fertilizer if the soil is dry, while the DeliveryTruck might prepare to collect crops if the storage is nearly full.
+		○ void startEngine();
+			§ Reason: This method simulates the truck starting its operation after being notified. It represents the physical action that the truck takes in response to a notification, such as starting the delivery of fertilizer or beginning the collection of crops.
+	• Role: These concrete classes (FertilizerTruck, DeliveryTruck) implement the Truck interface and define the specific actions each truck takes when notified by the CropField. They ensure that the correct response is triggered based on the state of the crop field.
+
+Note: I made the startEngine(), buyTruck(), sellTruck(), callTruck() all return void. If you think it would be more useful for them to return something, please let me know.
+
+
+Explanation of Roles and Interactions
+	• Subject (CropFieldInterface): The abstract class or interface defines the methods that allow trucks (observers) to attach, detach, and be notified when the crop field's state changes.
+	• ConcreteSubject (CropField): The CropField class is responsible for managing its state and notifying the observers (trucks) when significant changes occur, such as soil drying out or storage nearing capacity.
+	• Observer (Truck): The Truck interface defines the update() method, ensuring that all types of trucks can be notified and respond to changes in the crop field.
+	• ConcreteObserver (FertilizerTruck, DeliveryTruck): These concrete classes implement the Truck interface and define the specific actions each truck takes when notified by the CropField.
+	• Notification Mechanism: When the CropField changes state, it calls notify(), which in turn calls update() on all attached trucks. This ensures that all relevant trucks are aware of the changes and can take the appropriate action.
+
+---------------------------------------------------------------------------------------
