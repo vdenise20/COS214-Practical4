@@ -4,7 +4,10 @@
 class ExtraBarnCropField :
     public CropFieldDecorator
 {
+private:
+    FarmUnit* wrappedField;
 public:
+    ExtraBarnCropField(FarmUnit* field);
     int getLeftOverCapacity() override;
 };
 #endif

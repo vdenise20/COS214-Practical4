@@ -1,4 +1,7 @@
 #include "Farm.h"
+#include "FarmIterator.h"
+#include "BreadthFirstIterator.h"
+#include "DepthFirstIterator.h"
 #include <algorithm> // for std::remove
 
 // Implement the getName() method
@@ -32,4 +35,10 @@ void Farm::remove(FarmUnit* unit) {
 // Implement the getChildren() method
 std::vector<FarmUnit*> Farm::getChildren() {
     return units; // Return the vector of children (farms or crop fields)
+}
+FarmIterator* Farm::createBreadthIterator() {
+    return new DepthFirstIterator(this);
+}
+FarmIterator* Farm::createDepthIterator() {
+    return new BreadthFirstIterator(this);
 }

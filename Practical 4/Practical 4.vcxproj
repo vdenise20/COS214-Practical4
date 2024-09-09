@@ -130,8 +130,6 @@
     <ClCompile Include="Barn.cpp" />
     <ClCompile Include="BreadthFirstIterator.cpp" />
     <ClCompile Include="CropField.cpp" />
-    <ClCompile Include="CropFieldDecorator.cpp" />
-    <ClCompile Include="CropFieldInterface.cpp" />
     <ClCompile Include="DeliveryTruck.cpp" />
     <ClCompile Include="DepthFirstIterator.cpp" />
     <ClCompile Include="DrySoil.cpp" />
@@ -140,7 +138,6 @@
     <ClCompile Include="FarmCollection.cpp" />
     <ClCompile Include="FarmIterator.cpp" />
     <ClCompile Include="FarmUnit.cpp" />
-    <ClCompile Include="FarmUnitCollection.cpp" />
     <ClCompile Include="FertilisedCropField.cpp" />
     <ClCompile Include="FertiliserTruck.cpp" />
     <ClCompile Include="FloodedSoil.cpp" />
@@ -154,7 +151,6 @@
     <ClInclude Include="BreadthFirstIterator.h" />
     <ClInclude Include="CropField.h" />
     <ClInclude Include="CropFieldDecorator.h" />
-    <ClInclude Include="CropFieldInterface.h" />
     <ClInclude Include="DeliveryTruck.h" />
     <ClInclude Include="DepthFirstIterator.h" />
     <ClInclude Include="DrySoil.h" />
@@ -163,7 +159,6 @@
     <ClInclude Include="FarmCollection.h" />
     <ClInclude Include="FarmIterator.h" />
     <ClInclude Include="FarmUnit.h" />
-    <ClInclude Include="FarmUnitCollection.h" />
     <ClInclude Include="FertilisedCropField.h" />
     <ClInclude Include="FertiliserTruck.h" />
     <ClInclude Include="FloodedSoil.h" />

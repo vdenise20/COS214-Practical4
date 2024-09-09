@@ -1,4 +1,6 @@
 #include "BreadthFirstIterator.h"
+#include "FarmIterator.h"
+#include "FarmUnit.h"
 #include "Farm.h" // Include the Farm class definition
 
 // Constructor: Initialize the iterator with the root farm unit

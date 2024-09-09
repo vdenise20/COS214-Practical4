@@ -1,6 +1,7 @@
 #ifndef DEPTHFIRSTITERATOR_H
 #define DEPTHGIRSTITERATOR_H
 #include "FarmIterator.h"
+class FarmUnit;
 #include <stack>
 class DepthFirstIterator :
     public FarmIterator

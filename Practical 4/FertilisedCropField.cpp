@@ -2,6 +2,9 @@
 #include <iostream>
 using namespace std;
 
+FertilisedCropField::FertilisedCropField(FarmUnit* wrappedField) : CropFieldDecorator(wrappedField) {
+	this->wrappedField = wrappedField;
+}
 void FertilisedCropField::increaseProduction() {
 	wrappedField->setState(new FruitfulSoil());
 }

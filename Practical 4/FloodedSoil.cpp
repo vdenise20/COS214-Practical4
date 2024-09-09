@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void FloodedSoil::harvestCrops(CropField* field) {
+void FloodedSoil::harvestCrops(FarmUnit* field) {
     // ASCII Art: Waterlogged field with submerged crops
     std::cout << R"(
     ~~~~~~~~~~~~~
@@ -16,7 +16,7 @@ void FloodedSoil::harvestCrops(CropField* field) {
     // No update to the crops, as they are flooded
 }
 
-void FloodedSoil::rain(CropField* field) {
+void FloodedSoil::rain(FarmUnit* field) {
     // ASCII Art: Continuous rain on a flooded field
     std::cout << R"(
       .-.

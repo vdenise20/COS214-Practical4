@@ -39,12 +39,6 @@
     <ClCompile Include="FloodedSoil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CropFieldInterface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CropFieldDecorator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ExtraBarnCropField.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -75,9 +69,6 @@
     <ClCompile Include="DepthFirstIterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FarmUnitCollection.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FarmUnit.h">
@@ -99,9 +90,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FloodedSoil.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CropFieldInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CropFieldDecorator.h">
@@ -135,9 +123,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DepthFirstIterator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FarmUnitCollection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

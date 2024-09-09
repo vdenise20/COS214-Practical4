@@ -5,7 +5,7 @@ using namespace std;
 
 // DrySoil.cpp
 
-void DrySoil::harvestCrops(CropField* field) {
+void DrySoil::harvestCrops(FarmUnit* field) {
     // ASCII Art: Dry soil with a small plant
     std::cout << R"(
     ____________
@@ -19,7 +19,7 @@ void DrySoil::harvestCrops(CropField* field) {
 
     field->updateCurrentCrops(field->getYield());
 }
-void DrySoil::rain(CropField* field) {
+void DrySoil::rain(FarmUnit* field) {
     // ASCII Art: Raindrops falling on dry soil
     std::cout << R"(
       .-.

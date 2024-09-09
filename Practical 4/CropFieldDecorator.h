@@ -1,20 +1,28 @@
 #ifndef CROPFIELDDECORATOR_H
 #define CROPFIELDDECORATOR_H
-#include "CropFieldInterface.h"
+#include "FarmUnit.h"
 #include "FruitfulSoil.h"
 
 class CropFieldDecorator :
-    public CropFieldInterface
+    public FarmUnit
 {
 protected:
-    CropField* wrappedField;
+    FarmUnit* wrappedField;
 
 public:
-    CropFieldDecorator(CropField* field) : wrappedField(field) {}
-    virtual void increaseProduction() override;
-    virtual void harvest() override;
-    virtual int getLeftOverCapacity() override;
-    virtual ~CropFieldDecorator();
+    CropFieldDecorator(FarmUnit* field) : FarmUnit("") {
+        wrappedField = field;  
+    }
+    virtual void increaseProduction() override {
+        wrappedField->increaseProduction();
+    }
+    virtual void harvest() override {
+        wrappedField->harvest();
+    }
+    virtual int getLeftOverCapacity() override {
+        return wrappedField->getLeftOverCapacity();
+    }
+    virtual ~CropFieldDecorator() {};
 };
 #endif
 

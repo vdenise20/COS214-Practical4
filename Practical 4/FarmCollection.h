@@ -5,7 +5,8 @@
 class FarmCollection
 {
 public:
-	virtual FarmIterator* createIterator() = 0;
+	virtual FarmIterator* createBreadthIterator() = 0;
+	virtual FarmIterator* createDepthIterator() = 0;
 };
 #endif /*FARMCOLLECTION_H*/
 

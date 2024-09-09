@@ -2,6 +2,7 @@
 #define BREADTHFIRSTITERATOR_H
 #include "FarmIterator.h"
 #include <queue>
+class FarmUnit;
 class BreadthFirstIterator :
     public FarmIterator
 {

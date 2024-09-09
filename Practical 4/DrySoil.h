@@ -9,8 +9,8 @@ class DrySoil :
     public SoilState
 {
 public:
-    void harvestCrops(CropField* field) override;
-    void rain(CropField* field) override;
+    void harvestCrops(FarmUnit* field) override;
+    void rain(FarmUnit* field) override;
     string getName() override;
 };
 #endif /*DRYSOIL_H*/

@@ -15,6 +15,8 @@ public:
     void add(FarmUnit* unit) override;
     void remove(FarmUnit* unit) override;
     vector<FarmUnit*> getChildren() override;
+    FarmIterator* createBreadthIterator() override;
+    FarmIterator* createDepthIterator() override;
 };
 #endif /*FARM_H*/
 

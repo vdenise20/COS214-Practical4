@@ -8,8 +8,8 @@ class CropField;
 class SoilState
 {
 public:
-	virtual void harvestCrops(CropField* field) = 0;
-	virtual void rain(CropField* field) = 0;
+	virtual void harvestCrops(FarmUnit* field) = 0;
+	virtual void rain(FarmUnit* field) = 0;
 	virtual string getName() = 0;
 };
 #endif /*SOILSTATE_H*/
