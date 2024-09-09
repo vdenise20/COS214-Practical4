@@ -20,7 +20,7 @@ void CropField::updateCurrentCrops(int num) {
 		this->currentStoredCrops += num;
 	else {
 		cout << "The storage is full." << endl;
-		notify("Delivery");
+		CropFieldInterface::notify("Delivery");
 		this->currentStoredCrops = num;
 		cout << "The crops have been sent out to thte delivery trucks. The storage is now free and has been updated." << endl;
 	}

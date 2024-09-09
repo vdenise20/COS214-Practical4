@@ -145,7 +145,7 @@
     <ClCompile Include="FertiliserTruck.cpp" />
     <ClCompile Include="FloodedSoil.cpp" />
     <ClCompile Include="FruitfulSoil.cpp" />
-    <ClCompile Include="Practical 4.cpp" />
+    <ClCompile Include="TestingMain.cpp" />
     <ClCompile Include="SoilState.cpp" />
     <ClCompile Include="Truck.cpp" />
   </ItemGroup>

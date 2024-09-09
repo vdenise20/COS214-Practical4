@@ -12,12 +12,14 @@ private:
 public:
 	FarmUnit(string name) : name(name) {};
 	string getName() const { return name; }
-	virtual int getTotalCapacity() const = 0;
-	virtual string getSoilStateName() const = 0;
-	virtual void updateCurrentCrops(int num) = 0;
-	virtual void add(FarmUnit* unit);
-	virtual void remove(FarmUnit* unit);
-	virtual vector<FarmUnit*> getChildren() = 0;
+	virtual int getTotalCapacity() const { return 0; };
+	virtual string getCropType() { return ""; }
+	virtual string getSoilStateName() { return ""; }
+	virtual void rain() {}
+	virtual void harvestCrops() {}
+	virtual void add(FarmUnit* unit) {};
+	virtual void remove(FarmUnit* unit) {};
+	virtual vector<FarmUnit*> getChildren() {};
 };
 #endif /*FARMUNIT_H*/
 

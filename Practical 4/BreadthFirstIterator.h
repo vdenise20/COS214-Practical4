@@ -10,7 +10,7 @@ private:
     queue<FarmUnit*> farmQueue;
 
 public:
-    BreadthFirstIterator(Farm* root);
+    BreadthFirstIterator(FarmUnit* root);
     void firstFarm() override;
     void next() override;
     bool isDone() const override;

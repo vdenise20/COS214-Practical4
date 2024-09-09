@@ -1,15 +1,106 @@
 ﻿  Barn.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  BreadthFirstIterator.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
   CropField.cpp
-C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(8,29): error C2504: 'CropFieldInterface': base class undefined
-C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(27,10): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
-C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(28,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
-C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(29,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  CropFieldDecorator.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
   CropFieldInterface.cpp
-C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(8,1): fatal  error C1071: unexpected end of file found in comment
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+  DeliveryTruck.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(27,7): error C2027: use of undefined type 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(6,7): message : see declaration of 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(28,5): error C2027: use of undefined type 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(6,7): message : see declaration of 'Truck'
+  DepthFirstIterator.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
   DrySoil.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  ExtraBarnCropField.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+  Farm.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  FarmCollection.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  FarmIterator.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
   FarmUnit.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  FarmUnitCollection.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  FertilisedCropField.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+  FertiliserTruck.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(27,7): error C2027: use of undefined type 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(6,7): message : see declaration of 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(28,5): error C2027: use of undefined type 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(6,7): message : see declaration of 'Truck'
   FloodedSoil.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
   FruitfulSoil.cpp
-  Practical 4.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  TestingMain.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
   SoilState.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+  Generating Code...
+  Compiling...
+  Truck.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,44): error C2561: 'FarmUnit::getChildren': function must return a value
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\FarmUnit.h(22,28): message : see declaration of 'FarmUnit::getChildren'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(12,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(31,9): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(32,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(33,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(27,7): error C2027: use of undefined type 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(6,7): message : see declaration of 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(28,5): error C2027: use of undefined type 'Truck'
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(6,7): message : see declaration of 'Truck'
   Generating Code...

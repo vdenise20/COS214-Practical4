@@ -10,7 +10,7 @@ protected:
     CropField* wrappedField;
 
 public:
-    CropFieldDecorator(CropFieldInterface* field) : wrappedField(field) {}
+    CropFieldDecorator(CropField* field) : wrappedField(field) {}
     virtual void increaseProduction() override;
     virtual void harvest() override;
     virtual int getLeftOverCapacity() override;

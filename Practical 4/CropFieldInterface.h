@@ -1,8 +1,9 @@
-#ifndef CROPFIELDINTERFACE
-#define CROPFIELDINTERFACE
+#ifndef CROPFIELDINTERFACE_H
+#define CROPFIELDINTERFACE_H
 
-#include "Truck.h"
 #include "SoilState.h"
+#include "Truck.h"
+class Truck;
 class CropFieldInterface
 {
 private:

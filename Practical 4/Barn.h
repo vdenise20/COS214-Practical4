@@ -8,8 +8,8 @@ private:
     int totalCapacity;
 
 public: 
+    Barn(string name, int capacity) : FarmUnit(name) { totalCapacity = capacity; }
     int getTotalCapacity() const override;
-    string getName() const override;
 };
 #endif /*BARN_H*/
 

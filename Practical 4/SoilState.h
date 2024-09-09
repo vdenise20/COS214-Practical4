@@ -1,9 +1,10 @@
 #ifndef	SOILSTATE_H
 #define SOILSTATE_H
-
+#include "CropField.h"
 #include <iostream>
 using namespace std;
-#include "CropField.h"
+
+class CropField;
 class SoilState
 {
 public:

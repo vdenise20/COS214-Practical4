@@ -10,7 +10,7 @@ private:
     stack<FarmUnit*> farmStack;
 
 public:
-    DepthFirstIterator(Farm* root);
+    DepthFirstIterator(FarmUnit* root);
     void firstFarm() override;
     void next() override;
     bool isDone() const override;

@@ -2,7 +2,7 @@
 #include "Farm.h" // Include the Farm class definition
 
 // Constructor: Initialize the iterator with the root farm unit
-BreadthFirstIterator::BreadthFirstIterator(Farm* root) {
+BreadthFirstIterator::BreadthFirstIterator(FarmUnit* root) {
     farmQueue.push(root);  // Add the root farm to the queue
     current = nullptr;
 }
