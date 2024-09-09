@@ -2,6 +2,7 @@
 #define TRUCK_H
 
 #include "CropFieldInterface.h"
+#include "SoilState.h"
 #include <iostream>
 class Truck
 {

@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+
+class CropField;
 using namespace std;
 class FarmUnit
 {
@@ -19,7 +21,7 @@ public:
 	virtual void harvestCrops() {}
 	virtual void add(FarmUnit* unit) {};
 	virtual void remove(FarmUnit* unit) {};
-	virtual vector<FarmUnit*> getChildren() {};
+	virtual vector<FarmUnit*> getChildren() { return {}; }
 };
 #endif /*FARMUNIT_H*/
 

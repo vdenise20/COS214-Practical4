@@ -1,4 +1,6 @@
 #include "CropField.h"
+#include "SoilState.h"
+#include "CropFieldInterface.h"
 #include <iostream>
 using namespace std;
 
@@ -51,4 +53,7 @@ void CropField::harvest() {
 }
 void CropField::harvestCrops() {
 	currentState->harvestCrops(this);
+}
+void CropField::rain() {
+	currentState->rain(this);
 }

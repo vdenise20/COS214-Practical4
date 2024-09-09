@@ -2,7 +2,7 @@
 #define CROPFIELDDECORATOR_H
 #include "CropFieldInterface.h"
 #include "FruitfulSoil.h"
-class CropField;
+
 class CropFieldDecorator :
     public CropFieldInterface
 {

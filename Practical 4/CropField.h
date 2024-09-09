@@ -3,29 +3,24 @@
 
 #include "FarmUnit.h"
 #include "CropFieldInterface.h"
-#include "SoilState.h"
-
-class CropFieldInterface;
-
 class SoilState;
-class CropField :
-    public FarmUnit, public CropFieldInterface
+class CropField : public FarmUnit, public CropFieldInterface
 {
 private:
-    string cropType;
+    std::string cropType;
     int totalCapacity;
     int currentStoredCrops;
     int yield;
     SoilState* currentState;
 
 public:
-    CropField(string name, string cropType, SoilState* currentState);
-    string getCropType();
+    CropField(std::string name, std::string cropType, SoilState* currentState);
+    std::string getCropType();
     int getTotalCapacity() const override;
-    void updateCurrentCrops(int num) ;
+    void updateCurrentCrops(int num);
     int getYield();
-    string getName() const;
-    string getSoilStateName() const;
+    std::string getName() const;
+    std::string getSoilStateName() const;
     SoilState* getState();
     void setState(SoilState* newState);
     int getLeftOverCapacity() override;
@@ -34,5 +29,4 @@ public:
     void harvestCrops();
     void rain() override;
 };
-#endif /*CROPFIELD_H*/
-
+#endif /* CROPFIELD_H */
