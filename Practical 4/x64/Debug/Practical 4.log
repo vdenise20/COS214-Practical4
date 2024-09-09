@@ -1,0 +1,15 @@
+﻿  Barn.cpp
+  CropField.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(8,29): error C2504: 'CropFieldInterface': base class undefined
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(27,10): error C3668: 'CropField::getLeftOverCapacity': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(28,10): error C3668: 'CropField::increaseProduction': method with override specifier 'override' did not override any base class methods
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropField.h(29,10): error C3668: 'CropField::harvest': method with override specifier 'override' did not override any base class methods
+  CropFieldInterface.cpp
+C:\Users\SOMMY\OneDrive - Northcliff High School\Desktop\Computer Science\Second Year Semester 2\COS214\Practicals\Practical 4\COS214-Practical4\Practical 4\CropFieldInterface.h(8,1): fatal  error C1071: unexpected end of file found in comment
+  DrySoil.cpp
+  FarmUnit.cpp
+  FloodedSoil.cpp
+  FruitfulSoil.cpp
+  Practical 4.cpp
+  SoilState.cpp
+  Generating Code...

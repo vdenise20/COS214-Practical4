@@ -1,0 +1,22 @@
+CropField:
+-getSoilStateName() should also be in Abstract class
+-added setter method updateCurrentCrops(int num) to update the number of crops in the field after harvesting. Added to abstract class as well.
+-added yield variable to store how many crops can be harvested from the field.
+-added a getYield method.
+
+Truck:
+-Since both Trucks have the same functions, shouldnt they be pure virtual functions in the base class?
+-the update function is callTruck according to the spec so it needs to be changed to that
+-added a bool isPurchased variable
+
+CropFieldDecorator:
+-wrappedField should be protected not private and should be of type CropFieldInterface*
+-The inherited classes no longer need variables as i hardcoded them. Adding the variables makes the code interaction between patterns very complex
+
+CropFieldInterface:
+-made the observerList protected so i could access it from the child class.
+
+Iterators:
+-changed the type of currentIndex to FarmUnit* since none of the iterators in STL i'm using use int indexes.
+-changed elements type to queue in breadthFirst and stack in depth first
+-changed the return type of currentFarm to FarmUnit*
